@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>THE MOMO LAND</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="project.js" defer></script>
+</head>
+
+<body>
+	</form>
+	</section>
+	<header>
+		<h1>WHITE ELEPHANT CAFE</h1>
+		<h2></h2>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home">
+			<h2>Welcome to Our Food Ordering Website</h2>
+			<p>We provide delicious food at affordable prices.</p>
+			<a href="#menu">Order Now</a>
+		</section>
+		<div id="happy-customer-reviews">
+			<h2>Happy Customer Reviews</h2>
+			<div id="review-container"></div>
+			<button id="load-more-reviews">Load More Reviews</button>
+			<script src="review.js"></script>
+		</div>
+		<section id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li>
+					<img src="burger.jpg" alt="Burger">
+					<h3>Burger</h3>
+					<p>Price: 60₹</p>
+					<button class="add-to-cart-btn" data-price="60">Add to Cart</button>
+				</li>
+				<li>
+					<img src="pizza.jpg" alt="Pizza">
+					<h3>Pizza</h3>
+					<p>Price: 120₹</p>
+					<button class="add-to-cart-btn" data-price="120">Add to Cart</button>
+				</li>
+				<li>
+					<img src="momo.jpg" alt="Momo">
+					<h3>Momo</h3>
+					<p>Price: 80₹</p>
+					<button class="add-to-cart-btn" data-price="80">Add to Cart</button>
+				</li>
+				<li>
+					<img src="biriyani.jpg" alt="Biriyani">
+					<h3>Biriyani</h3>
+					<p>Price: 180₹</p>
+					<button class="add-to-cart-btn" data-price="180">Add to Cart</button>
+				</li>
+				<li>
+					<img src="pakhal-bhat_1521367576.avif" alt="Pakhal Bhata">
+					<h3>Pakhal Bhata</h3>
+					<p>Price: 120₹</p>
+					<button class="add-to-cart-btn" data-price="120">Add to Cart</button>
+				</li>
+				<li>
+					<img src="dosa.jpg" alt="Dosa">
+					<h3>Dosa</h3>
+					<p>Price: 80₹</p>
+					<button class="add-to-cart-btn" data-price="80">Add to Cart</button>
+				</li>
+				<li>
+					<img src="nood.jpg" alt="Noddles">
+					<h3>Noddles</h3>
+					<p>Price: 100₹</p>
+					<button class="add-to-cart-btn" data-price="100">Add to Cart</button>
+				</li>
+				<li>
+					<img src="dahibara.webp" alt="Dahibara">
+					<h3>Dahibara</h3>
+					<p>Price: 80₹</p>
+					<button class="add-to-cart-btn" data-price="80">Add to Cart</button>
+				</li>
+			</ul>
+		</section>
+		<section id="cart">
+			<h2>Cart</h2>
+			<ul>
+			</ul>
+			<p>Total: <span id="total-price">0</span>₹</p>
+			<button id="checkout-btn">Check Out</button>
+			<form id="location-form" style="display: none;">
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address">
+
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city">
+
+				<label for="state">State:</label>
+				<input type="text" id="state" name="state">
+
+				<label for="zip">Zip:</label>
+				<input type="text" id="zip" name="zip">
+
+				<button type="submit">Submit</button>
+			</form>
+			<form id="location-form" style="display: none;"></form>
+			<section id="cart">
+				<button id="clear-cart-btn">Clear Cart</button>
+				<ul></ul>
+			</section>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+				<button>Send Message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<div class="footer-column">
+				<h3>About Us</h3>
+				<p>We are a leading provider of high-quality products and services. Our mission is to provide our customers with the best possible experience and to help them achieve their goals.</p>
+			</div>
+			<div class="footer-column">
+				<h3>Contact Us</h3>
+				<ul>
+					<li>Phone: 6372934626</li>
+					<li>Email: swagatswasti@gmail.com</li>
+					<li>Address: B3/103, JAGANNATH WARIOR RECEDENCY, TAMANDO, ODISHA</li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<h3>Follow Us</h3>
+				<ul class="footer-social">
+					<li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+					<li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+					<li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+				</ul>
+			</div>
+	</footer>
+	<footer>
+		<div class="footer-copyright">
+			<p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © The MOMO LAND™ Ltd. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
