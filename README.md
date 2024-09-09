@@ -12,9 +12,8 @@ A responsive and user-friendly food ordering website built with HTML, CSS, and J
 
 #### Installation
 
-1. `git clone https://github.com/your-username/food-ordering-website.git`
-2. Open the project folder in your preferred code editor
-3. Open the `index.html` file in your web browser to view the application
+1. Open the project folder in your preferred code editor
+2. Open the `index.html` file in your web browser to view the application
 
 ### Features
 
