@@ -24,9 +24,9 @@ A responsive and user-friendly food ordering website built with HTML, CSS, and J
 
 ### Technologies Used
 
-* HTML5
-* CSS3 (with Sass)
-* JavaScript (with ES6+ syntax)
+* HTML
+* CSS
+* JavaScript
 * Bootstrap (version 5) for styling and layout
 
 ### Contributing
