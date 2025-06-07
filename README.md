@@ -1,5 +1,5 @@
 **Food Ordering Website**
-==========================
+========================== 
 
 A responsive and user-friendly food ordering website built with HTML, CSS, and JavaScript.
 
@@ -27,7 +27,7 @@ A responsive and user-friendly food ordering website built with HTML, CSS, and J
 * HTML
 * CSS
 * JavaScript
-* Bootstrap (version 5) for styling and layout
+* Bootstrap for styling and layout
 
 ### Contributing
 
